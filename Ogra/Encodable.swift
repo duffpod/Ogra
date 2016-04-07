@@ -135,6 +135,7 @@ extension JSON {
                 dict[key] = value.JSONObject()
 			}
 			return dict
+        default:                 return NSNull()
 		}
 	}
 }
